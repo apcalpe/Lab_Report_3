@@ -308,18 +308,17 @@ Output:
 ```
 Command: grep --color "role" 1468-6708-3-7.txt
 
-Output:
-
-![Image](Screenshot 2023-05-08 at 5.23.19 PM.png)	
+Output: In pic below
 
 ```
+![Image](Screenshot%202023-05-08%20at%205.23.19%20PM.png)
+
 
 
 ```
 Command: grep --color "oxygen" cc3.txt
 
-Output: 
-
-![Image](Screenshot 2023-05-08 at 5.24.53 PM.png)	
+Output: In pic below
 
 ```
+![Image](Screenshot%202023-05-08%20at%205.24.53%20PM.png)
