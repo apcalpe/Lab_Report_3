@@ -281,14 +281,24 @@ Output:
                 also received permission to meet Atta in Malaysia. Atef provided money for the trip,
                 which KSM would help Binalshibh arrange in Karachi.
             
-
 ```
 
 
 ```
-Command:
+Command: grep -C 2 "aliens" chapter-10.txt
 
-Output:
+Output: 
+                cooperation with the FBI began arresting individuals for immigration violations whom
+                they encountered while following up leads in the FBI's investigation of the 9/11
+                attacks. Eventually, 768 aliens were arrested as "special interest" detainees. Some
+                (such as Zacarias Moussaoui) were actually in INS custody before 9/11; most were
+                arrested after. Attorney General John Ashcroft told us that he saw his job in
+--
+                80 days.
+            
+            We have assessed this effort to detain aliens of "special interest." The detainees
+                were lawfully held on immigration charges. Records indicate that 531 were deported,
+                162 were released on bond, 24 received some kind of immigration benefits, 12 had
 
 ```
 
@@ -296,16 +306,20 @@ Output:
 
 
 ```
-Command:
+Command: grep --color "role" 1468-6708-3-7.txt
 
 Output:
+
+![Image](Screenshot%202023-05-08%20at%205.23.19%20PM.png)	
 
 ```
 
 
 ```
-Command:
+Command: grep --color "oxygen" cc3.txt
 
-Output:
+Output: 
+
+![Image](Screenshot%202023-05-08%20at%205.24.53%20PM.png)	
 
 ```
