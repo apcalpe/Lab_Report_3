@@ -23,6 +23,8 @@ Output:
 
 ```
 
+The grep -n command prints the line and the line number that matches the keyword passe din the command line. This command is useful because the line number being part of the output makes it easy to find the line where the word is, making it more efficient and fast when looking for a particular line. 
+
 I found this command in the website [geeksforgeeks.org](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#) when I searched up in google "grep command-line options" and this website came up with a list of different grep commands. 
 
 
@@ -240,6 +242,7 @@ technical/911report/chapter-6.txt
 technical/911report/chapter-12.txt
 
 ```
+This command prints the files in a certain directory where the keyword passed in the command line appears in. This is useful because it allows people to search through multiple files for a certain word at once instead of having to do it one file at a time and having only the file path be the output instead of the whole line makes it easier when a person only needs to know which files have what instead of wanting to know the content.
 
 I found this command through ChatGPT. I was initially interested in the -r command that I found in GeeksForgeeks but I didn't like how it printed every single line and which file it's from. I found thatfor certain words that appear often in a lot of different files, the output will be too large, so I asked ChatGPT to give me a command similar to -r but that will only print out teh files that the word appears in. It introduced me to the -rl command, which is exactly what I wanted.
 
@@ -306,6 +309,8 @@ Output:
 
 ```
 
+This command prints out a certain number of lines above and below the line where the keyword appears in. This is useful because it provides context to the line and keyword a person is looking at, making it easier to search through a file, know which part is the relevant part, and have a better understanding of the lines.
+
 I found this command in the website [geeksforgeeks.org](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#) when I searched up in google "grep command-line options" and this website came up with a list of different grep commands. 
 
 
@@ -329,5 +334,7 @@ Output: In pic below
 
 ```
 ![Image](Screenshot%202023-05-08%20at%205.24.53%20PM.png)
+
+This command highlights the keyword in the line. This is useful because it makes it easier for people to notice the keyword, especially when there are a lot of words in the line or when the output is long and it allows people to quickly focus on the relevant part of the line.
 
 I found this command by asking ChatGPT to give me inetresting grep commands and one of the commands it gave me was this command.
