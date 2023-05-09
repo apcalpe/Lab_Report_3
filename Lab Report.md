@@ -23,6 +23,8 @@ Output:
 
 ```
 
+I found this command in the website [geeksforgeeks.org](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#) when I searched up in google "grep command-line options" and this website came up with a list of different grep commands. 
+
 
 ## Grep -rl Command
 
@@ -239,6 +241,8 @@ technical/911report/chapter-12.txt
 
 ```
 
+I found this command through ChatGPT. I was initially interested in the -r command that I found in GeeksForgeeks but I didn't like how it printed every single line and which file it's from. I found thatfor certain words that appear often in a lot of different files, the output will be too large, so I asked ChatGPT to give me a command similar to -r but that will only print out teh files that the word appears in. It introduced me to the -rl command, which is exactly what I wanted.
+
 ## Grep -C Command
 
 
@@ -302,6 +306,9 @@ Output:
 
 ```
 
+I found this command in the website [geeksforgeeks.org](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#) when I searched up in google "grep command-line options" and this website came up with a list of different grep commands. 
+
+
 ## Grep -color Command
 
 
@@ -322,3 +329,5 @@ Output: In pic below
 
 ```
 ![Image](Screenshot%202023-05-08%20at%205.24.53%20PM.png)
+
+I found this command by asking ChatGPT to give me inetresting grep commands and one of the commands it gave me was this command.
